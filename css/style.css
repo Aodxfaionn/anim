@@ -150,6 +150,13 @@ body {
   width: 100%;
 }
 
+.product__back .product__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .products__item:hover .product__back {
   transform: rotateY(0deg);
 }
@@ -168,6 +175,7 @@ body {
   color: #fff;
   margin-top: 0;
   margin-bottom: 28px;
+  text-align: center;
 }
 
 .product__link {
